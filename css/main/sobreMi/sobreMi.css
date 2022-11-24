@@ -1,0 +1,57 @@
+.sobreMi__titulo {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+}
+.sobreMi__box {
+  margin-left: 20px;
+}
+
+.sobreMi__mensaje{
+  float: left;
+  position: relative;
+}
+.espacio {
+  position: absolute;
+  right: 0;
+  width: 0;
+  animation: maquina 8s infinite alternate;
+  border-left: 2px solid black;
+  background-color: white;
+}
+
+@keyframes maquina{
+    from{
+width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+
+
+
+/* .sobreMi__tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.sobreMi__titulo{
+    text-align: center;
+    margin: 50px;
+
+}
+
+.sobreMi__tipo{
+padding: 20px;
+    font-family: var(--font_sobre_mi);
+    font-size: 30px;
+}
+
+.sobreMi__dato{
+
+    font-family: var(--font_nav);
+    font-size: 35px;
+padding: 20px;
+
+} */

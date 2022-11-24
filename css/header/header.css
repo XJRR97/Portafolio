@@ -1,0 +1,21 @@
+@import url("/css/header/menu.css");
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.header__titulo {
+  align-self: center;
+  margin-left: 55px;
+  padding: 10px;
+  bottom: 10px;
+  left: 50px;
+  color: var(--verde_oscuro);
+}
+
+.header__titulo span {
+  margin-left: 5px;
+  font-size: 18px;
+}

@@ -1,0 +1,16 @@
+:root{
+    
+    --verde_oscuro: #034646;
+    --blanco_titulo: #dadada;
+    --font_nav: 'Caveat', cursive;
+    --font_sobre_mi:'Holtwood One SC', serif;
+    --color_relleno_sobre_mi: #242526;
+    --font__h1:'Rubik Mono One', sans-serif;
+    --color_titulo: #18191a;
+    --font__p: 'Concert One', cursive;
+    --color_nav: #CCF1F1;
+    --color_titulo_alternativo: #19181e;
+    --color_negro_oscuro: #080708
+
+    --font_pacifico: 'Pacifico', cursive;
+}
