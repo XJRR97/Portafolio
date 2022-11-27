@@ -1,15 +1,20 @@
 .presentacion {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 40px 0;
+  margin-top: 140px;
   padding: 60px;
   position: relative;
+  background: url("/sources/fondo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   /* background: linear-gradient(90deg, #313D5A 65%, #2e3953 65%); */
 }
 .presentacion__box {
+  height: 80px;
   margin-left: 15px;
-  width: 600px;
+  width: 100%;
   /* background-color: aqua; */
 }
 
@@ -21,6 +26,7 @@
   background-color: blue;
   left: 70px;
   transform: rotate(45deg);
+  top: 40px;
 }
 .decoracion1 {
   background: #6e1dd6;
@@ -37,6 +43,11 @@
   color: var(--color_titulo);
   z-index: 10;
 }
+.presentacion__box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .presentacion__descripcion {
   font-family: var(--font__p);
@@ -44,7 +55,21 @@
   font-size: 22px;
   line-height: 1.5;
   opacity: 0.7;
+  width: 500px;
 }
+
+
+
+.foto-perfil{
+  width: 300px;
+  height: 400px;
+  opacity: .7;
+  border-radius: 2px;
+  box-shadow: 12px 8px rgba(0,0,0,.5);
+  
+}
+
+
 .presentacion__fondo {
   position: relative;
   width: 300px;

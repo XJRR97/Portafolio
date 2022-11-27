@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/base/reset.css" />
     <link rel="stylesheet" href="./css/base/normalize.css" />
     <link rel="stylesheet" href="./css/base/style.css" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Concert+One&family=Dancing+Script&family=Holtwood+One+SC&family=Pacifico&family=Rubik+Mono+One&display=swap"
       rel="stylesheet"
@@ -26,9 +25,11 @@
       <i class="fa-solid fa-crow fa-2x header__titulo"><span>ᚷᚺᚱᚱ</span></i>
       <nav class="nav_menu">
         <ul class="menu__list">
-          <li class="item"><a class="icon_item" href="#">Sobre mi</a></li>
-          <li class="item"><a class="icon_item" href="#">Skills</a></li>
-          <li class="item"><a class="icon_item" href="#">Hobbies</a></li>
+          <li class="item">
+            <a class="icon_item" href="#sobreMi">Sobre mi</a>
+          </li>
+          <li class="item"><a class="icon_item" href="#skills">Skills</a></li>
+          <li class="item"><a class="icon_item" href="#hobbies">Hobbies</a></li>
           <li class="item">
             <a class="icon_item" href="#">Formación Académica</a>
           </li>
@@ -45,10 +46,23 @@
           <div class="presentacion__box">
             <div class="decoracion1"></div>
             <div class="decoracion2"></div>
-            <h1 class="presentacion__titulo">
-              Ingeniero en Networking y Telecomunicaciones & Desarrollador Jr
-              Frontend
-            </h1>
+            <span class="element"></span>
+            <div id="cadenas-texto">
+              <h1 class="presentacion__titulo">
+                Hola!! Soy Gary R., <br />
+                Ing. en Networking y Telecomunicaciones
+              </h1>
+              <h1 class="presentacion__titulo">
+                Hola!! Soy Gary R., <br />
+                Desarrollador Jr Frontend
+              </h1>
+              <h1 class="presentacion__titulo">
+                Hola!! Soy Gary R., <br />
+                Administrador de Plataforma
+              </h1>
+            </div>
+          </div>
+          <article class="presentacion__box2">
             <p class="presentacion__descripcion">
               Estudie en la Facultad de Ciencias Matematicas y Fisicas de la
               Universidad de Guayaquil, He realizado cursos sobre mantenimiento
@@ -56,14 +70,20 @@
               vulnerabilidad, S.O Linux usando terminal de comandos. Actualmente
               estoy inscrito en el programa Oracle Next Education en Alura Latam
             </p>
-          </div>
-          <div class="presentacion__fondo">
+
+            <img
+              src="/sources/fotoPerfil.jpg"
+              alt="foto perfil"
+              class="foto-perfil"
+            />
+          </article>
+          <!-- <div class="presentacion__fondo">
             <img
               src="/sources/foto_perfil-removebg-preview.png"
               alt="foto gary"
               class="fotoPerfil"
             />
-          </div>
+          </div> -->
         </section>
 
         <section class="redes">
@@ -72,73 +92,129 @@
           <h2 class="redes__titulo">Sigueme en mis Redes Sociales !!</h2>
           <ul class="redes__list">
             <li class="redes__item">
-              <a href="https://www.facebook.com/gary.remacherivera/"
+              <a
+                href="https://www.facebook.com/gary.remacherivera/"
+                target="_blank"
                 ><i class="fa-brands fa-facebook fa-4x redes__icon"></i
               ></a>
             </li>
             <li class="redes__item">
-              <a href="https://www.instagram.com/remacheriveragj/?hl=es"
+              <a
+                href="https://www.instagram.com/remacheriveragj/?hl=es"
+                target="_blank"
                 ><i class="fa-brands fa-instagram fa-4x redes__icon"></i
               ></a>
             </li>
             <li class="redes__item">
               <a
                 href="https://www.linkedin.com/in/gary-remache-rivera-0172b620a/"
+                target="_blank"
                 ><i class="fa-brands fa-linkedin fa-4x redes__icon"></i
               ></a>
             </li>
             <li class="redes__item">
-              <a href="https://discord.gg/RFanK8jYnt"
+              <a href="https://discord.gg/RFanK8jYnt" target="_blank"
                 ><i class="fa-brands fa-discord fa-4x redes__icon"></i
               ></a>
             </li>
             <li class="redes__item">
-              <a href="https://wa.me/593993010985"
+              <a href="https://wa.me/593993010985" target="_blank"
                 ><i class="fa-brands fa-whatsapp fa-4x redes__icon"></i
               ></a>
             </li>
           </ul>
         </section>
 
-        <section class="sobreMi">
-          <h2 class="sobreMi__titulo">Sobre Mi</h2>
-          <div class="sobreMi__box">
-            <h1 class="sobreMi__mensaje"
-              >Hola!! Soy Gary Julianno Remache Rivera<span class="espacio">&#160;</span></h1>
+        <section class="sobreMi" id="sobreMi">
+          <article class="biografia">
+            <div class="biografia__contenedor">
+              <h2 class="biografia__titulo">Sobre Mi</h2>
+            </div>
+            <div class="biografia__contenido">
+              <p>
+                Mi nombre completo es Gary Julianno Remache Rivera y tengo 25
+                años, mi fecha de nacimiento fue el 13 de abril de 1997.
+              </p>
+
+              <p>
+                Mi pais de residencia es Ecuador en la ciudad de Guayaquil, vivo
+                en casa de mis abuelos paternos con mi padre, hermano, cuñada y
+                una sobrina de 6 años. He trabajado por casi 10 años como
+                comerciante en un emprendimiento de mi padre.
+              </p>
+              <p>
+                He sido docente del area de matemática y en la actualidad
+                trabajo como administrador de plataforma en la Universidad
+                Técnica Empresarial de Guayaquil (UTEG). Deseo seguir
+                adquiriendo conocimientos en mi area de estudio mediante cursos,
+                talleres y en un futuro cercano realizar una maestría.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2 class="skills__titulo">Skills</h2>
+          <div class="skills__box">
+            <ul class="skills__list">
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-brands fa-html5"> </i>HTML
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-brands fa-css3-alt"></i>CSS
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-brands fa-square-js"></i
+                >Javascript
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-brands fa-linux"></i>Manejo S.O
+                Linux
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-solid fa-wifi"></i>Hacking a
+                Redes WIFI
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-solid fa-network-wired"></i
+                >Diseño y Configuración de Redes
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-solid fa-ethernet"></i
+                >Protocolos de Enrutamniento
+              </li>
+              <li class="skills__texto">
+                <i class="skills__icon fa-4x fa-solid fa-laptop"></i
+                >Mantenimiento de Computadoras
+              </li>
+            </ul>
           </div>
-          <span>Tengo 25 años</span>
-          <span>Vivo en Ecuador en la ciudad de Guayaquil</span>
-          <span>Tengo nacionalidad ecuatoriana</span>
-          <!-- <table class="sobreMi__tabla">
-            
-            <tr class="fila">
-              <td class="sobreMi__tipo">Nombre</td>
-              <td></td>
-            </tr>
-            <tr class="fila">
-              <td></td>
-              <td class="sobreMi__dato">Gary Julianno remache Rivera</td>
-            </tr>
-            <tr class="fila">
-              <td class="sobreMi__tipo">Edad</td>
-              <td></td>
-            </tr>
-            <tr class="fila">
-              <td></td>
-              <td class="sobreMi__dato">25 años</td>
-            </tr>
-            <tr class="fila">
-              <td class="sobreMi__tipo">Nacionalidad</td>
-              <td></td>
-            </tr>
-            <tr class="fila">
-              <td></td>
-              <td class="sobreMi__dato">Ecuatoriana</td>
-            </tr>
-          </table> -->
+        </section>
+
+        <section class="hobbies" id="hobbies">
+          <h2 class="hobbies__titulo">Hoobies</h2>
+          <ul class="hobbies__list">
+            <li class="hobbies__texto">
+              <i class="hobbies__icon fa-4x fa-solid fa-book"></i>Lectura
+            </li>
+            <li class="hobbies__texto">
+              <i class="hobbies__icon fa-4x fa-solid fa-tv"></i>peliculas/series
+            </li>
+            <li class="hobbies__texto">
+              <i class="hobbies__icon fa-4x fa-solid fa-gamepad"></i>Juegos
+            </li>
+            <li class="hobbies__texto">
+              <i class="hobbies__icon fa-4x fa-solid fa-headphones"></i>Música
+            </li>
+            <li class="hobbies__texto">
+              <i class="hobbies__icon fa-4x fa-solid fa-kitchen-set"></i>Cocinar
+            </li>
+          </ul>
         </section>
       </main>
       <footer></footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+      <script src="/js/index.js" type="module"></script>
     </body>
   </body>
 </html>

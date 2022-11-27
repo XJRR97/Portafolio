@@ -3,4 +3,15 @@
 @import url("../../css/main/presentacion/presentacion.css");
 @import url("../main/presentacion/redes.css");
 @import url("/css/main/sobreMi/sobreMi.css");
+@import url("/css/main/skills/skills.css");
+@import url("/css/main/hobbies/hobbies.css");
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+section[id]{
+    scroll-margin-top: 150px;
+}

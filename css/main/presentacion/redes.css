@@ -1,6 +1,6 @@
 .redes{
     width: 100%;
-    border-radius: 50px 50px 0 0;
+    /* border-radius: 50px 50px 0 0; */
     background-color: #41658A;
     background-color: #ECE2D0;
     background-color: #313638;
@@ -10,19 +10,20 @@
     align-items: center;
     position: relative;
     background: url("/sources/fondo\ granulado.jpg");
+    padding-bottom: 20px;
 }
 
 .redes .decoracion1{
-    top: 5px;
+    top: 15px;
 }
 .redes .decoracion2{
-    top: 5px;
+    top: 15px;
 }
 .redes__titulo{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     font-weight: 700;
-    margin: 20px 80px;
+    margin: 30px 80px;
     align-self: flex-start;
     z-index: 10;
     color: #C6B9CD;

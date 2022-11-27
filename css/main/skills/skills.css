@@ -1,0 +1,49 @@
+.skills{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    /* background: linear-gradient(159.2deg, #011627 50%, #880044 55%); */
+    background: linear-gradient( #011627 30%, #880044);
+
+}
+
+
+.skills__titulo{
+    font-size: 65px;
+    padding: 10px;
+    letter-spacing: 10px;
+   color: aliceblue;
+    /* background: url("/sources/fondoedificio.jpg"); */
+    /* background-position:bottom;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text; */
+
+}
+.skills__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills__texto{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #d8e1e99f;
+    border-radius: 20px;
+
+}
+
+.skills__icon{
+padding: 10px;
+}
