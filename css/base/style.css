@@ -5,9 +5,11 @@
 @import url("/css/main/sobreMi/sobreMi.css");
 @import url("/css/main/skills/skills.css");
 @import url("/css/main/hobbies/hobbies.css");
+@import url("/css/main/formacion/formacion.css");
 
 html{
     scroll-behavior: smooth;
+    /* background: url("/sources/fondo\ granulado.jpg"); */
 }
 
 

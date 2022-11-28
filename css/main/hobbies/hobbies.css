@@ -1,73 +1,75 @@
-.hobbies{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+.hobbies {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: url("https://assets.codepen.io/4927073/mybg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.hobbies__titulo{
-    font-size: 45px;
-    padding: 0 24px;
-    border-radius: 10px 0 0 10px;
-    background: #F1DEDC;
-    padding: 20px;
-    box-shadow: 12px 10px #feb5ad;
-    /* border-top: 2px solid black;
+.hobbies__titulo {
+    opacity: .8;
+    color: #f1dedc;
+  font-size: 45px;
+  padding: 0 24px;
+  border-radius: 10px 0 0 10px;
+  background: black;
+  padding: 20px;
+  /* box-shadow: 12px 10px rgba(0, 0, 0, 0.527); */
+  /* border-top: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black; */
-
 }
 
-.hobbies__list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0 10px 10px 0;
-    background: #F1DEDC;
-    padding: 20px;
-    box-shadow: 12px 10px #feb5ad;
-    /* border-top: 2px solid black;
+.hobbies__list {
+    opacity: .8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 10px 0;
+  background: #f1dedc;
+  background: black;
+  padding: 20px;
+  /* box-shadow: 12px 10px rgba(0, 0, 0, 0.527); */
+  /* border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black; */
-
-
-
-    
-
 }
 
-
-.hobbies__texto{
-    width: 250px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    position: relative;
-    height: 100px;
-
+.hobbies__texto {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  height: 100px;
+  color: #f1dedc;
 }
 
-.hobbies__texto::before{
-    content: "";
-    width: 25px;
-    height: 25px;
-    background: white;
-    border-radius: 50%;
-    margin-right: 5px;
-    border: 5px solid black;
-    align-self: flex-start;
-    z-index: 10;
+.hobbies__texto::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 5px solid #f1dedc;
+  align-self: flex-start;
+  z-index: 10;
 }
 
-.hobbies__texto::after{
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 100%;
-    left: 13px;
-    background-color: black;
+.hobbies__texto::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 100%;
+  left: 13px;
+  background-color: #f1dedc;
 }
 
-.hobbies__icon{
-width: 90px;
+.hobbies__icon {
+  width: 90px;
 }
